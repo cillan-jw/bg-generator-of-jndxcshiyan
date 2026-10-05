@@ -1,0 +1,15 @@
+<svg width="4096" height="3072" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="a" d="M 0 512 A 512 512 0 0 1 512 0 L 512 512 A 512 512 0 0 1 0 1024 L 0 512" fill="#000000"/>
+    <path id="b" d="M 512 512 A512 512 0 0 0 0 0 L 0 512 A 512 512 0 0 0 512 1024 L 512 512" fill="#000000"/>
+  </defs>
+  <use href="#a" x="3072" y="0" />
+  <use href="#b" x="1024" y="1024" />
+  <use href="#a" x="2560" y="1024" />
+  <use href="#b" x="3072" y="1024" />
+  <use href="#a" x="3584" y="1024" />
+  <use href="#a" x="0" y="2048" />
+  <use href="#b" x="1536" y="2048" />
+  <use href="#a" x="2048" y="2048" />
+  <use href="#b" x="3584" y="2048" />
+</svg>

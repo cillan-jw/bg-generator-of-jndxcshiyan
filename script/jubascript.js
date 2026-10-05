@@ -1,0 +1,1 @@
+var juba_uuid = "";(function(){ var juba = document.createElement("script");juba.type = "text/javascript";juba.async = true;juba.src = "https://www.jinan.gov.cn/api-gateway/jpaas-juba-front-server/sync/detailcollect.do?webid=qsy36";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(juba,s);})();
