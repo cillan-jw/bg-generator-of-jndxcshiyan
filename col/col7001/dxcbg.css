@@ -1,21 +1,143 @@
-.information *{color: #000;}
-    .information input[type="number"]{width: 372px;height: 38px;line-height: 38px;border: 1px solid #9c020d ;border-radius: 5px;margin-left: 15px;appearance: textfield;}
-    .information label{line-height: 48px;font-size: 18px;}
-    .information p span{font-size: 22px;}
-    .information .hoverBox:hover label>span{color:#9c020d}
-    .information .hoverBox:focus-within label>span{color:#9c020d}
-    .hoverBox{display: table;margin: 0 auto 0 0;border-spacing: 8px 5px;}
-    .hoverBox img{width: 36px;object-fit: contain;}
-    .main-hidden{display: none;}
-    .information select{width: 372px;height: 38px;font-size: 18px;line-height: 38px;border: none;border: 1px solid #9c020d ;border-radius: 5px;margin-left: 15px;}
-    .information button{margin: 5px 10px;background-color: #fff;width: 128px;height: 38px;font-size: 18px;line-height: 38px;border: none;border: 1px solid #9c020d ;border-radius: 5px;text-align: center;}
-    .information summary{margin: 5px 10px;background-color: #fff;width: 128px;height: 38px;font-size: 18px;line-height: 38px;border: none;border: 1px solid #9c020d ;border-radius: 5px;text-align: center;}
-    input[type="checkbox"]{margin-right: 15px;}
-    input[type="number"]::-webkit-outer-spin-button,input[type="number"]::-webkit-inner-spin-button{-webkit-appearance: none;margin:0}
-    #imageBox .canvasImg{margin: 20px auto;max-width: 600px;max-height: 320px;object-fit: contain;}
-    div#imageBox {text-align: center;}
-    .reference p{line-height: 32px;font-size: 14px;margin: 0 10px;}
-    .settingsGroup{display: flex;gap: 50px;}
-    .settingsGroup>.hoverBox{margin: 0;}
+.information * {
+    color: #000;
+}
 
-    .hidden{display: none;}
+.information input[type="number"] {
+    width: 372px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #9c020d;
+    border-radius: 5px;
+    margin-left: 15px;
+    appearance: textfield;
+}
+
+.information input[type="text"] {
+    width: 650px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #9c020d;
+    border-radius: 5px;
+    margin-left: 15px;
+    appearance: textfield;
+}
+
+.information textarea {
+    width: 650px;
+    height: 84px;
+    line-height: 38px;
+    border: 1px solid #9c020d;
+    border-radius: 5px;
+    margin-left: 15px;
+    appearance: textfield;
+    resize: none;
+}
+
+.information label {
+    line-height: 48px;
+    font-size: 18px;
+}
+
+.information p span {
+    font-size: 22px;
+}
+
+.information .hoverBox:hover label>span {
+    color: #9c020d
+}
+
+.information .hoverBox:focus-within label>span {
+    color: #9c020d
+}
+
+.hoverBox {
+    display: table;
+    margin: 0 auto 0 0;
+    border-spacing: 8px 5px;
+}
+
+.hoverBox img {
+    width: 36px;
+    object-fit: contain;
+}
+
+.main-hidden {
+    display: none;
+}
+
+.information select {
+    width: 372px;
+    height: 38px;
+    font-size: 18px;
+    line-height: 38px;
+    border: none;
+    border: 1px solid #9c020d;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.information button {
+    margin: 5px 10px;
+    background-color: #fff;
+    width: 128px;
+    height: 38px;
+    font-size: 18px;
+    line-height: 38px;
+    border: none;
+    border: 1px solid #9c020d;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.information summary {
+    margin: 5px 10px;
+    background-color: #fff;
+    width: 128px;
+    height: 38px;
+    font-size: 18px;
+    line-height: 38px;
+    border: none;
+    border: 1px solid #9c020d;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+#imageBox .canvasImg {
+    margin: 20px auto;
+    max-width: 600px;
+    max-height: 320px;
+    object-fit: contain;
+}
+
+div#imageBox {
+    text-align: center;
+}
+
+.reference p {
+    line-height: 32px;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.settingsGroup {
+    display: flex;
+    gap: 50px;
+}
+
+.settingsGroup>.hoverBox {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}

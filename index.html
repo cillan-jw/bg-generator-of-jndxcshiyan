@@ -1,300 +1,337 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
-    <script src="script/jslib/jquery.js"></script>
-    <script src="script/jslib/jquery.cookie.js"></script>
-    <script src="script/layui/layui.all.js"></script>
-    <script src="script/layui/layer.js"></script>
-    <script src="script/webglobal.js"></script>
-    <script src="script/webgray.js"></script>
-    <script src="script/webgray_qsy5213_qsy263731.js"></script>
-    <script src="plugins/require.js"></script>
-    <script src="plugins/load.js"></script>
-    <link rel="stylesheet" href="css/iconfont.css" />
-    <link rel="stylesheet" href="css/layui.css" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="renderer" content="webkit">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/hanweb.css" type="text/css">
-    <link rel="stylesheet" href="css/ssyzxDxcLm.css" type="text/css">
-    <!--<script src="/cms_files/webjinandaxuechengshiyangaojizhongxue/pubtplobject/defaultSet/qsy2532/images/jquery-1.8.3.js"></script>-->
-    <script id="barrierfree" src="accessiblereading/load.js"></script>
-    <title>济南大学城实验高中背景图像生成器</title>
-    <meta name="ColId" content="---">
-    <meta name="SiteName" content="济南大学城实验高级中学">
-    <meta name="SiteDomain" content="jndxcshiyan.jinan-edu.cn">
-    <meta name="SiteIDCode" content="">
-    <meta name="ColumnName" content="背景图像">
-    <meta name="ColumnType" content="背景图像">
-    <meta name="ArticleTitle" content="济南大学城实验高中背景图像生成器">
-    <meta name="PubDate" content="2026-09-26 21:00">
-    <meta name="ContentSource" content="山东省实验中学">
-    <meta name="Keywords" content="校园,大学城,高中,济南,实验">
-    <meta name="Author" content="">
-    <meta name="Description" content="学校背景图像生成器">
-    <meta name="Url" content="---">
-    <meta name="server" content="---">
-    <meta name="extend1" content="0">
-    <meta name="SiteID" content="qsy36">
-    <meta id="pagetype" content="1">
+	<script src="script/jslib/jquery.js"></script>
+	<script src="script/jslib/jquery.cookie.js"></script>
+	<script src="script/layui/layui.all.js"></script>
+	<script src="script/layui/layer.js"></script>
+	<script src="script/webglobal.js"></script>
+	<script src="script/webgray.js"></script>
+	<script src="script/webgray_qsy5213_qsy263731.js"></script>
+	<script src="plugins/require.js"></script>
+	<script src="plugins/load.js"></script>
+	<link rel="stylesheet" href="css/iconfont.css" />
+	<link rel="stylesheet" href="css/layui.css" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/hanweb.css" type="text/css">
+	<link rel="stylesheet" href="css/ssyzxDxcLm.css" type="text/css">
+	<!--<script src="/cms_files/webjinandaxuechengshiyangaojizhongxue/pubtplobject/defaultSet/qsy2532/images/jquery-1.8.3.js"></script>-->
+	<script id="barrierfree" src="accessiblereading/load.js"></script>
+	<title>济南大学城实验高中背景图像生成器</title>
+	<meta name="ColId" content="---">
+	<meta name="SiteName" content="济南大学城实验高级中学">
+	<meta name="SiteDomain" content="jndxcshiyan.jinan-edu.cn">
+	<meta name="SiteIDCode" content="">
+	<meta name="ColumnName" content="背景图像">
+	<meta name="ColumnType" content="背景图像">
+	<meta name="ArticleTitle" content="济南大学城实验高中背景图像生成器">
+	<meta name="PubDate" content="2026-09-26 21:00">
+	<meta name="ContentSource" content="山东省实验中学">
+	<meta name="Keywords" content="校园,大学城,高中,济南,实验">
+	<meta name="Author" content="">
+	<meta name="Description" content="学校背景图像生成器">
+	<meta name="Url" content="---">
+	<meta name="server" content="---">
+	<meta name="extend1" content="0">
+	<meta name="SiteID" content="qsy36">
+	<meta id="pagetype" content="1">
 </head>
+
 <body id="page_type" alt="列表页">
-    <div id='barrierfree_container'>
-        <script src="script/loadheader.js"></script>
-        <div class="main">
-            <div class="dxc-currentBox">
-                <span class="bt-left">当前位置：</span>
-                <table cellspacing="0" cellpadding="0" border="0" class="bt-left">
-                    <tr>
-                        <td><a href="https://jndxcshiyan.jinan-edu.cn/index.html" class="bt_link">首页</a></td>
-                        <td> &gt; <a href="" class="bt_link"> 背景图像 </a></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="bt-box-1200 dxc-conBox conBg">
-                <div class="dxc-mainBox">
-                    <div class="bt-left dxc-listBox">
-                        <p>页面链接</p>
-                        <div class="listBg">
-                            <ul>
-                                <li><a href="https://jndxcshiyan.jinan-edu.cn/index.html" id="首页">首页</a></li>
-                                <li><a href="https://jndxcshiyan.jinan-edu.cn/col/col5212/index.html" id="学校简介">学校简介</a></li>
-                                <li><a href="https://jndxcshiyan.jinan-edu.cn/col/col5213/index.html" id="校园美景">校园美景</a></li>
-                                <li><a href="" id="背景图像">背景图像</a></li>
-                            </ul>
-                        </div>
-                        <script>
-                            $(function () {var ids = "背景图像";$("#" + ids).addClass("listOn");});
-                        </script>
-                    </div>
-                    <div class="bt-right dxc-newsBox">
-                        <ul class="clearfix">
-                            <style>
-                                .dxc-title {margin:auto;padding:25px 0;width:100%;line-height:40px;text-align:center;font-size:25px;font-weight:bold;color:#000000;border-bottom:1px solid #ddd;}
-                                .dxc-newsBox img{width:100%;}
-                                .dxc-listBox .listBg{margin-left:8px;margin-bottom:-99999px;padding-bottom:99999px;width:280px;background:#f3f3f3;}
-                            </style>
-                            <div class="dxc-title">济南大学城实验高中背景图像生成器</div>
-                            <div class="title1 "></div>
-                            <div class="wen zoom" style="min-height:300px;">
+	<div id='barrierfree_container'>
+		<script src="script/loadheader.js"></script>
+		<div class="main">
+			<div class="dxc-currentBox">
+				<span class="bt-left">当前位置：</span>
+				<table cellspacing="0" cellpadding="0" border="0" class="bt-left">
+					<tr>
+						<td><a href="https://jndxcshiyan.jinan-edu.cn/index.html" class="bt_link">首页</a></td>
+						<td> &gt; <a href="" class="bt_link"> 背景图像 </a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="bt-box-1200 dxc-conBox conBg">
+				<div class="dxc-mainBox">
+					<div class="bt-left dxc-listBox">
+						<p>页面链接</p>
+						<div class="listBg">
+							<ul>
+								<li><a href="https://jndxcshiyan.jinan-edu.cn/index.html" id="首页">首页</a></li>
+								<li><a href="https://jndxcshiyan.jinan-edu.cn/col/col5212/index.html" id="学校简介">学校简介</a>
+								</li>
+								<li><a href="https://jndxcshiyan.jinan-edu.cn/col/col5213/index.html" id="校园美景">校园美景</a>
+								</li>
+								<li><a href="" id="背景图像">背景图像</a></li>
+							</ul>
+						</div>
+						<script>
+							$(function () { var ids = "背景图像"; $("#" + ids).addClass("listOn"); });
+						</script>
+					</div>
+					<div class="bt-right dxc-newsBox">
+						<ul class="clearfix">
+							<style>
+								.dxc-title {
+									margin: auto;
+									padding: 25px 0;
+									width: 100%;
+									line-height: 40px;
+									text-align: center;
+									font-size: 25px;
+									font-weight: bold;
+									color: #000000;
+									border-bottom: 1px solid #ddd;
+								}
 
-<link rel="stylesheet" href="col/col7001/dxcbg.css" type="text/css">
-<div class="information">
-	<div>
-		<div class="hoverBox">
-			<label for="cHeight"><span>高度（像素）</span></label>
-			<input type="number" id="cHeight" step="1" value="1536" />
-		</div>
-		<div class="hoverBox">
-			<label for="cWidth"><span>宽度（像素）</span></label>
-			<input type="number" id="cWidth" step="1" value="2048" />
-		</div>
-		<details>
-		    <summary>参考宽高</summary>
-			<div class="reference">
-			    <p>A4&emsp;1754x1240&emsp;2339x1654&emsp;3508x2480</p>
-			    <p>16:9&emsp;1920x1080</p>
-		    	<p>16:10&emsp;1920x1200</p>
-			    <p>4:3&emsp;2048x1536</p>
-			    <p>B5&emsp;1969x1386&emsp;2953x2079</p>
-		    </div>
-		</details>
-	</div>
-	<div class="hoverBox">
-		<label for="mainColor"><span>背景主色</span></label>
-		<select id="mainColor">
-			<option value='["#9c020d","#9c020d"]' selected>睿雅红-标准</option>
-			<option value='["#a7181f","#a7181f"]'>睿雅红-次亮</option>
-			<option value='["#CC4F4B","#CC4F4B"]'>睿雅红-亮色</option><!--未找到标准色-->
-			<option value='["#013f88","#013f88"]'>修律蓝-标准</option>
-			<option value='["#6290C4","#6290C4"]'>修律蓝-亮色</option><!--未找到标准色-->
-			<option value='["#012F66","#012F66"]'>修律蓝-暗色</option><!--未找到标准色-->
-			<option value='["#c8a254","#c8a254"]'>帝王黄-标准</option>
-			<option value='["#fcf6e8","#fcf6e8"]'>象牙白-标准</option>
-			<option value='["#9c020d","#c7383f"]'>睿雅红-渐变</option>
-			<option value='["#012F66","#6290C4"]'>修律蓝-渐变</option>
-		</select>
-		<p>当前选择：<span style="color:#9c020d">&#9632;</span><span style="color:#9c020d">&#9632;</span></p>
-	</div>
-	<div class="hoverBox">
-		<label for="subColor"><span>背景辅色</span></label>
-		<select id="subColor">
-			<option value="#9c020d">睿雅红-标准</option>
-			<option value="#a7181f">睿雅红-次亮</option>
-			<option value="#CC4F4B">睿雅红-亮色</option><!--未找到标准色-->
-			<option value="#013f88" selected>修律蓝-标准</option>
-			<option value="#6290C4">修律蓝-亮色</option><!--未找到标准色-->
-			<option value="#012F66">修律蓝-暗色</option><!--未找到标准色-->
-			<option value="#c8a254">帝王黄-标准</option>
-			<option value="#fcf6e8">象牙白-标准</option>
-		</select>
-		<p>当前选择：<span style="color:#013f88">&#9632;&#9632;</span></p>
-	</div>
-    <div class="hoverBox">
-		<label for="cRadiu"><span>圆角（像素）</span></label>
-		<input type="number" id="cRadiu" step="1" />
-	</div>
-	<details>
-		<summary>遮罩</summary>
-	    <div class="hoverBox">
-	    	<label for="topMaskHeight"><span>顶部遮罩高度（像素）</span></label>
-	    	<input type="number" id="topMaskHeight" step="1" />
-	    </div>
-	    <div class="hoverBox">
-	    	<label for="bottomMaskHeight"><span>底部遮罩高度（像素）</span></label>
-	    	<input type="number" id="bottomMaskHeight" step="1" />
-	    </div>
-	    <div class="hoverBox">
-	    	<input type="checkbox" id="isMaskDecorate" />
-	    	<label for="isMaskDecorate"><span>遮罩装饰</span></label>
-			<img src="col/col7001/mask-decoration.svg">
-	    </div>
-	    <div class="hoverBox">
-	    	<label for="maskColor"><span>遮罩颜色</span></label>
-	    	<select id="maskColor">
-	    		<option value="#9c020d">睿雅红-标准</option>
-	    		<option value="#a7181f">睿雅红-次亮</option>
-	    		<option value="#CC4F4B">睿雅红-亮色</option><!--未找到标准色-->
-	    		<option value="#013f88">修律蓝-标准</option>
-	    		<option value="#6290C4">修律蓝-亮色</option><!--未找到标准色-->
-	    		<option value="#012F66">修律蓝-暗色</option><!--未找到标准色-->
-	    		<option value="#c8a254">帝王黄-标准</option>
-	    		<option value="#fcf6e8">象牙白-标准</option>
-	    		<option value="#ffffff">标准白-标准</option>
-	    		<option value="#a0a0a0" selected>标准灰-标准</option>
-	    		<option value="#000000">标准黑-标准</option>
-	    	</select>
-			<p>当前选择：<span style="color:#a0a0a0">&#9632;&#9632;</span></p>
-	    </div>
-	</details>
-	<details>
-		<summary>缩进</summary>
-	    <div class="hoverBox">
-	    	<label for="verticalIndentation"><span>纵缩进（像素）</span></label>
-	    	<input type="number" id="verticalIndentation" step="1" />
-	    </div>
-	    <div class="hoverBox">
-	    	<label for="horizontalIndentation"><span>横缩进（像素）</span></label>
-	    	<input type="number" id="horizontalIndentation" step="1" />
-	    </div>
-	</details>
-	<details>
-		<summary>标识</summary>
-	    <div class="settingsGroup">
-		    <div class="hoverBox">
-		    	<input type="checkbox" id="isTopLogo" checked />
-		    	<label for="isTopLogo"><span>顶部标识</span></label>
-				<img src="col/col7001/top-logo.png" style="width: 100px;">
-		    </div>
-		    <div class="hoverBox">
-		    	<input type="checkbox" id="isFeitianLineLogo" />
-		    	<label for="isFeitianLineLogo"><span>小飞天-轮廓</span></label>
-				<img src="col/col7001/feitian-line.png">
-		    </div>
-	    </div>
-		<div class="settingsGroup">
-		    <div class="hoverBox">
-		    	<input type="checkbox" id="isBottomLogo" checked />
-		    	<label for="isBottomLogo"><span>底部标识</span></label>
-				<img src="col/col7001/bottom-logo.png" style="width: 100px;">
-		    </div>
-	    	<div class="hoverBox">
-	    		<input type="checkbox" id="isFeitianShapeLogo" />
-	    		<label for="isFeitianShapeLogo"><span>小飞天-填充</span></label>
-				<img src="col/col7001/feitian-shape.png">
-	    	</div>
-	    </div>
-	    <div class="hoverBox">
-	    	<label for="logoColor"><span>标识颜色</span></label>
-	    	<select id="logoColor">
-				<option value="#9c020d">睿雅红-标准</option>
-	    		<option value="#a7181f">睿雅红-次亮</option>
-	    		<option value="#CC4F4B">睿雅红-亮色</option><!--未找到标准色-->
-	    		<option value="#013f88">修律蓝-标准</option>
-	    		<option value="#6290C4">修律蓝-亮色</option><!--未找到标准色-->
-	    		<option value="#012F66">修律蓝-暗色</option><!--未找到标准色-->
-	    		<option value="#c8a254">帝王黄-标准</option>
-	    		<option value="#fcf6e8">象牙白-标准</option>
-	    		<option value="#ffffff" selected>标准白-标准</option>
-	    		<option value="#a0a0a0">标准灰-标准</option>
-	    		<option value="#000000">标准黑-标准</option>
-	    	</select>
-			<p>当前选择：<span style="color:#ffffff">&#9632;&#9632;</span></p>
-	    </div>
-	    <div class="hoverBox">
-	    	<input type="checkbox" id="isntMaskAffectLogo" />
-	    	<label for="isntMaskAffectLogo"><span>标识位置不受遮罩影响</span></label>
-	    </div>
-    </details>
-	<details>
-		<summary>背景图形</summary>
-	    <div class="settingsGroup">
-	    	<div class="hoverBox">
-	    		<input type="checkbox" id="isTopImage" />
-	    		<label for="isTopImage"><span>顶部图形</span></label>
-				<img src="col/col7001/top-shape.svg" style="width: 18px;">
-	    	</div>
-	    	<div class="hoverBox">
-	    		<input type="checkbox" id="isBottomImage" checked />
-	    		<label for="isBottomImage"><span>底部图形</span></label>
-				<img src="col/col7001/bottom-shape.svg">
-	    	</div>
-	    </div>
-	    <div class="hoverBox">
-	    	<label for="topShapeDirection"><span>顶部图形方向</span></label>
-	    	<select id="topShapeDirection">
-	    		<option value="right" selected>右侧</option>
-	    		<option value="left">左侧</option>
-	    		<option value="both">两侧</option>
-	    	</select>
-	    </div>
-	    <div class="hoverBox">
-    		<label for="bottomShapeDirection"><span>底部图形方向</span></label>
-    		<select id="bottomShapeDirection">
-	    		<option value="right" selected>右侧</option>
-	    		<option value="left">左侧</option>
-	    		<option value="both">两侧</option>
-	    	</select>
-	    </div>
-	</details>
-	<details>
-		<summary>预设模板</summary>
-		<div class="hoverBox">
-		    <label for="referenceSelect"><span>预设</span></label>
-		    <select id="referenceSelect">
-			    <option value="ivoryPoster">象牙白海报</option>
-			    <option value="pptBackground">PPT背景</option>
-		    	<option value="xiulvBlueToast">修律蓝提示语</option>
-		    	<option value="ivoryA4">象牙白A4</option>
-		    	<option value="banner">横幅</option>
-		    	<option value="ruiyaRedA4">睿雅红A4</option>
-		    	<option value="ruiyaRedToast">睿雅红提示语</option>
-		    </select>
-		    <button id="applyButton">应用预设</button>
-	    </div>
-	</details>
-	<button id="drawButton">仅预览</button>
-	<button id="downloadButton">预览和导出</button>
-</div>
-<div id="imageBox"></div>
-<script src="col/col7001/todraw.js"></script>
+								.dxc-newsBox img {
+									width: 100%;
+								}
 
-                            </div>
-                            <div class="xian"></div>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src="script/loadfooter.js"></script>
-        <script src="script/jslib/Date.js"></script>
-        <script>
-            $(function(){
-                $(".dxc-newsBox").css('min-height', $(".dxc-listBox").height())
-            })
-        </script>
-        <script src="script/jubascript.js"></script>
-    </div>
+								.dxc-listBox .listBg {
+									margin-left: 8px;
+									margin-bottom: -99999px;
+									padding-bottom: 99999px;
+									width: 280px;
+									background: #f3f3f3;
+								}
+							</style>
+							<div class="dxc-title">济南大学城实验高中背景图像生成器</div>
+							<div class="title1 "></div>
+							<div class="wen zoom" style="min-height:300px;">
+
+								<link rel="stylesheet" href="col/col7001/dxcbg.css" type="text/css">
+								<div class="information">
+									<div>
+										<div class="hoverBox">
+											<label for="cHeight"><span>高度（像素）</span></label>
+											<input type="number" id="cHeight" step="1" value="1536" />
+										</div>
+										<div class="hoverBox">
+											<label for="cWidth"><span>宽度（像素）</span></label>
+											<input type="number" id="cWidth" step="1" value="2048" />
+										</div>
+										<details>
+											<summary>参考宽高</summary>
+											<div class="reference">
+												<p>A4&emsp;1754x1240&emsp;2339x1654&emsp;3508x2480</p>
+												<p>16:9&emsp;1920x1080</p>
+												<p>16:10&emsp;1920x1200</p>
+												<p>4:3&emsp;2048x1536</p>
+												<p>B5&emsp;1969x1386&emsp;2953x2079</p>
+											</div>
+										</details>
+									</div>
+									<div class="hoverBox">
+										<label for="mainColor"><span>背景主色</span></label>
+										<select id="mainColor">
+											<option value='["#9c020d","#9c020d"]' selected>睿雅红-标准</option>
+											<option value='["#a7181f","#a7181f"]'>睿雅红-次亮</option>
+											<option value='["#CC4F4B","#CC4F4B"]'>睿雅红-亮色</option><!--未找到标准色-->
+											<option value='["#013f88","#013f88"]'>修律蓝-标准</option>
+											<option value='["#6290C4","#6290C4"]'>修律蓝-亮色</option><!--未找到标准色-->
+											<option value='["#012F66","#012F66"]'>修律蓝-暗色</option><!--未找到标准色-->
+											<option value='["#c8a254","#c8a254"]'>帝王黄-标准</option>
+											<option value='["#fcf6e8","#fcf6e8"]'>象牙白-标准</option>
+											<option value='["#9c020d","#c7383f"]'>睿雅红-渐变</option>
+											<option value='["#012F66","#6290C4"]'>修律蓝-渐变</option>
+										</select>
+										<p>当前选择：<span style="color:#9c020d">&#9632;</span><span
+												style="color:#9c020d">&#9632;</span></p>
+									</div>
+									<div class="hoverBox">
+										<label for="subColor"><span>背景辅色</span></label>
+										<select id="subColor">
+											<option value="#9c020d">睿雅红-标准</option>
+											<option value="#a7181f">睿雅红-次亮</option>
+											<option value="#CC4F4B">睿雅红-亮色</option><!--未找到标准色-->
+											<option value="#013f88" selected>修律蓝-标准</option>
+											<option value="#6290C4">修律蓝-亮色</option><!--未找到标准色-->
+											<option value="#012F66">修律蓝-暗色</option><!--未找到标准色-->
+											<option value="#c8a254">帝王黄-标准</option>
+											<option value="#fcf6e8">象牙白-标准</option>
+										</select>
+										<p>当前选择：<span style="color:#013f88">&#9632;&#9632;</span></p>
+									</div>
+									<div class="hoverBox">
+										<label for="cRadiu"><span>圆角（像素）</span></label>
+										<input type="number" id="cRadiu" step="1" />
+									</div>
+									<details>
+										<summary>遮罩</summary>
+										<div class="hoverBox">
+											<label for="topMaskHeight"><span>顶部遮罩高度（像素）</span></label>
+											<input type="number" id="topMaskHeight" step="1" />
+										</div>
+										<div class="hoverBox">
+											<label for="bottomMaskHeight"><span>底部遮罩高度（像素）</span></label>
+											<input type="number" id="bottomMaskHeight" step="1" />
+										</div>
+										<div class="hoverBox">
+											<input type="checkbox" id="isMaskDecorate" />
+											<label for="isMaskDecorate"><span>遮罩装饰</span></label>
+											<img src="col/col7001/mask-decoration.svg">
+										</div>
+										<div class="hoverBox">
+											<label for="maskColor"><span>遮罩颜色</span></label>
+											<select id="maskColor">
+												<option value="#9c020d">睿雅红-标准</option>
+												<option value="#a7181f">睿雅红-次亮</option>
+												<option value="#CC4F4B">睿雅红-亮色</option><!--未找到标准色-->
+												<option value="#013f88">修律蓝-标准</option>
+												<option value="#6290C4">修律蓝-亮色</option><!--未找到标准色-->
+												<option value="#012F66">修律蓝-暗色</option><!--未找到标准色-->
+												<option value="#c8a254">帝王黄-标准</option>
+												<option value="#fcf6e8">象牙白-标准</option>
+												<option value="#ffffff">标准白-标准</option>
+												<option value="#a0a0a0" selected>标准灰-标准</option>
+												<option value="#000000">标准黑-标准</option>
+											</select>
+											<p>当前选择：<span style="color:#a0a0a0">&#9632;&#9632;</span></p>
+										</div>
+									</details>
+									<details>
+										<summary>缩进</summary>
+										<div class="hoverBox">
+											<label for="verticalIndentation"><span>纵缩进（像素）</span></label>
+											<input type="number" id="verticalIndentation" step="1" />
+										</div>
+										<div class="hoverBox">
+											<label for="horizontalIndentation"><span>横缩进（像素）</span></label>
+											<input type="number" id="horizontalIndentation" step="1" />
+										</div>
+									</details>
+									<details>
+										<summary>标识</summary>
+										<div class="settingsGroup">
+											<div class="hoverBox">
+												<input type="checkbox" id="isTopLogo" checked />
+												<label for="isTopLogo"><span>顶部标识</span></label>
+												<img src="col/col7001/top-logo.png" style="width: 100px;">
+											</div>
+											<div class="hoverBox">
+												<input type="checkbox" id="isFeitianLineLogo" />
+												<label for="isFeitianLineLogo"><span>小飞天-轮廓</span></label>
+												<img src="col/col7001/feitian-line.png">
+											</div>
+										</div>
+										<div class="settingsGroup">
+											<div class="hoverBox">
+												<input type="checkbox" id="isBottomLogo" checked />
+												<label for="isBottomLogo"><span>底部标识</span></label>
+												<img src="col/col7001/bottom-logo.png" style="width: 100px;">
+											</div>
+											<div class="hoverBox">
+												<input type="checkbox" id="isFeitianShapeLogo" />
+												<label for="isFeitianShapeLogo"><span>小飞天-填充</span></label>
+												<img src="col/col7001/feitian-shape.png">
+											</div>
+										</div>
+										<div class="hoverBox">
+											<label for="logoColor"><span>标识颜色</span></label>
+											<select id="logoColor">
+												<option value="#9c020d">睿雅红-标准</option>
+												<option value="#a7181f">睿雅红-次亮</option>
+												<option value="#CC4F4B">睿雅红-亮色</option><!--未找到标准色-->
+												<option value="#013f88">修律蓝-标准</option>
+												<option value="#6290C4">修律蓝-亮色</option><!--未找到标准色-->
+												<option value="#012F66">修律蓝-暗色</option><!--未找到标准色-->
+												<option value="#c8a254">帝王黄-标准</option>
+												<option value="#fcf6e8">象牙白-标准</option>
+												<option value="#ffffff" selected>标准白-标准</option>
+												<option value="#a0a0a0">标准灰-标准</option>
+												<option value="#000000">标准黑-标准</option>
+											</select>
+											<p>当前选择：<span style="color:#ffffff">&#9632;&#9632;</span></p>
+										</div>
+										<div class="hoverBox">
+											<input type="checkbox" id="isntMaskAffectLogo" />
+											<label for="isntMaskAffectLogo"><span>标识位置不受遮罩影响</span></label>
+										</div>
+									</details>
+									<details>
+										<summary>背景图形</summary>
+										<div class="settingsGroup">
+											<div class="hoverBox">
+												<input type="checkbox" id="isTopImage" />
+												<label for="isTopImage"><span>顶部图形</span></label>
+												<img src="col/col7001/top-shape.svg" style="width: 18px;">
+											</div>
+											<div class="hoverBox">
+												<input type="checkbox" id="isBottomImage" checked />
+												<label for="isBottomImage"><span>底部图形</span></label>
+												<img src="col/col7001/bottom-shape.svg">
+											</div>
+										</div>
+										<div class="hoverBox">
+											<label for="topShapeDirection"><span>顶部图形方向</span></label>
+											<select id="topShapeDirection">
+												<option value="right" selected>右侧</option>
+												<option value="left">左侧</option>
+												<option value="both">两侧</option>
+											</select>
+										</div>
+										<div class="hoverBox">
+											<label for="bottomShapeDirection"><span>底部图形方向</span></label>
+											<select id="bottomShapeDirection">
+												<option value="right" selected>右侧</option>
+												<option value="left">左侧</option>
+												<option value="both">两侧</option>
+											</select>
+										</div>
+									</details>
+									<details>
+										<summary>预设模板</summary>
+										<div class="hoverBox">
+											<label for="referenceSelect"><span>预设</span></label>
+											<select id="referenceSelect">
+												<option value="ivoryPoster">象牙白海报</option>
+												<option value="pptBackground">PPT背景</option>
+												<option value="xiulvBlueToast">修律蓝提示语</option>
+												<option value="ivoryA4">象牙白A4</option>
+												<option value="banner">横幅</option>
+												<option value="ruiyaRedA4">睿雅红A4</option>
+												<option value="ruiyaRedToast">睿雅红提示语</option>
+											</select>
+											<button id="applyButton">应用预设</button>
+										</div>
+									</details>
+									<details>
+										<summary>添加文字</summary>
+										<div class="hoverBox">
+											<label for="mainTitle"><span>主标题</span></label>
+											<textarea id="mainTitle" rows="2"></textarea>
+										</div>
+										<div class="hoverBox">
+											<label for="subTitle"><span>副标题</span></label>
+											<input id="subTitle" type="text"></input>
+										</div>
+									</details>
+									<button id="drawButton">仅预览</button>
+									<button id="downloadButton">预览和导出</button>
+								</div>
+								<div id="imageBox"></div>
+								<script src="col/col7001/todraw.js"></script>
+
+							</div>
+							<div class="xian"></div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script/loadfooter.js"></script>
+		<script src="script/jslib/Date.js"></script>
+		<script>
+			$(function () {
+				$(".dxc-newsBox").css('min-height', $(".dxc-listBox").height())
+			})
+		</script>
+		<script src="script/jubascript.js"></script>
+	</div>
 </body>
+
 </html>
